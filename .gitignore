@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+indexes/
+data/papers/*.pdf
+.DS_Store
+Thumbs.db

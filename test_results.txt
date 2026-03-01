@@ -1,0 +1,8 @@
+Testing resolve_papers_from_query limits...
+Query: 'compare attention vs bert' -> IDs: []
+  - Did NOT find paper1 via partial title.
+Query: 'compare attention is all you need vs bert: pre-training of deep bidirectional transformers' -> IDs: ['paper1', 'paper2']
+  - Found paper1 via full title.
+Query: 'compare Attention Is All You Need vs BERT' -> IDs: ['paper1']
+Query: 'compare paper 1 and paper 2' -> IDs: ['paper1', 'paper2']
+  - Found paper1 via 'paper 1'
