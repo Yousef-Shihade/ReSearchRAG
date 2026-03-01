@@ -83,9 +83,9 @@ Open the project folder in **VS Code** and open a terminal:
 
 **Windows**
 
-python -m venv .venv
+python -m venv venv
 
-.\.venv\Scripts\activate
+venv\Scripts\activate
 
 **macOS/Linux**
 
@@ -137,6 +137,8 @@ GROQ_API_KEY=your_actual_api_key_here
 
 Streamlit typically opens the app at: http://localhost:8501
 
+**The system requires a document base to function. Add a PDF to data/papers/ and run python ingest.py before starting the Streamlit app.**
+
 --------------------------------------------------------------------------------------------------------------------
 
 
@@ -156,6 +158,7 @@ Use the sidebar uploader to upload PDF/TXT files
 Click Index uploaded file(s) to build the in-memory FAISS index
 The uploads will be labeled in the sidebar as:
 upload1, upload2, ...
+
 
 ### 3) Ask Questions
 
